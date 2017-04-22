@@ -1,0 +1,107 @@
+//#{
+  background-image: url("../img/gni.jpg");
+  text-align: center;
+  margin: 14px 1px;
+  color: white;
+  background-size: cover;
+  background-color: inherit;
+  background-origin: border-box;//
+}
+footer{
+  background-color: black;
+
+  height: 60px;
+text-align: center;
+  margin-top: 20px;
+
+
+}
+body{
+  background-color: rgba(37, 86, 94, 0.43);
+}
+#clone1{
+  margin-left:162px;
+}
+#clone2{
+  margin-left:162px;
+}
+#clone3{
+  margin-left:162px;
+}
+#clone4{
+  margin-left:162px;
+}
+#clone5{
+  margin-left:162px;
+}
+#clone6{
+  margin-left:162px;
+}
+#clone7{
+  margin-left:162px;
+}
+#clone8{
+  margin-left:162px;
+}
+#clone9{
+  margin-left:162px;
+}
+#clone10{
+  margin-left:162px;
+  margin-bottom: 35px;
+}
+.decoration-line{
+  font-size: 55px;
+  color: rgb(72, 117, 194);
+}
+body h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+  .d-line{
+    width: 22%;
+    height: 2px;
+    border-bottom: 5px solid rgb(72, 117, 194);
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+#team h3{
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+#team h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+#team img{
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+  margin-left: 50px;
+}
+#team p{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+#leader h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+#leader h2{
+
+  font-size: 50px;
+  font-weight: bold;
+}
+#leader img{
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+}
