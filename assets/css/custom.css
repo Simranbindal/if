@@ -1,13 +1,74 @@
-//#{
-  background-image: url("../img/gni.jpg");
-  text-align: center;
-  margin: 14px 1px;
-  color: white;
-  background-size: cover;
-  background-color: inherit;
-  background-origin: border-box;//
+
+.btn-xl .badge {
+  color: rgba(32, 152, 203, 0.88);
+  background-color: white;
 }
-footer{
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+
+}
+.navbar-custom .navbar-brand {
+  color: rgba(32, 152, 203, 0.88);
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+margin-top: 14px;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: white;
+
+
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(32, 152, 203, 0.88);
+}
+.navbar-custom .navbar-toggle {
+  background-color: rgba(32, 152, 203, 0.88);
+  border-color: rgba(32, 152, 203, 0.88);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: red;
+  font-size: 22px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: rgba(32, 152, 203, 0.88);
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 50px;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: rgba(32, 152, 203, 0.88);
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: rgba(32, 152, 203, 0.88);
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: rgba(#1b92c4, 0.7);
+}
+
+.social-icons{
+padding-right: 40px;
+font-size: 20px;
+margin-bottom: 30px;
+}
+header img{
+  margin-top: 70px;
+}
+ footer{
   background-color: black;
 
   height: 60px;
@@ -16,38 +77,60 @@ text-align: center;
 
 
 }
+footer span.copyright{
+  color:white;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+text-transform: none;
+font-size: 18px;
+}
+footer ul.social-buttons{
+  font-size: 28px;
+  border-radius: 50%;
+}
+footer ul.quicklinks{
+  font-size: 18px;
+
+}
+footer ul.quicklinks a{
+  color: rgba(32, 152, 203, 0.88);
+}
+
+
+
 body{
   background-color: rgba(37, 86, 94, 0.43);
 }
 #clone1{
-  margin-left:162px;
+  margin-left:220px;
+
 }
 #clone2{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone3{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone4{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone5{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone6{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone7{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone8{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone9{
-  margin-left:162px;
+  margin-left:220px;
 }
 #clone10{
-  margin-left:162px;
+  margin-left:220px;
   margin-bottom: 35px;
 }
 .decoration-line{
@@ -58,9 +141,121 @@ body h1{
   text-align: center;
   font-size: 60px;
   font-weight: bold;
+  color: rgb(33, 18, 3);
+}
+#clone1 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;
+}
+#clone1 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
 }
 
+#clone2 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+}
+#clone3 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+}
+#clone4 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+}
+#clone5 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+}
+#clone6 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+}
+#clone7 a{
+  margin-left: 18px;
+  margin-bottom: 50px;
+}
+#clone8 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+}
+#clone9 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
 
+}
+#clone10 a{
+  margin-bottom: 50px;
+  margin-left: 18px;
+
+}
+#clone2 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone3 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone4 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone5 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone6 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone7 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone8 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone9 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
+#clone10 img{
+
+  border-radius: 50%;
+  border: 2px solid rgb(72, 117, 194);
+
+  margin-left:8px;px;
+}
   .d-line{
     width: 22%;
     height: 2px;
@@ -77,6 +272,7 @@ body h1{
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+  color: rgb(33, 18, 3);
 
 }
 #team img{
@@ -88,17 +284,20 @@ body h1{
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 
 #leader h3{
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 #leader h2{
 
   font-size: 50px;
   font-weight: bold;
+  color:rgb(33, 18, 3) ;
 }
 #leader img{
   border-radius: 50%;
